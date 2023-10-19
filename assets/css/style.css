@@ -24,7 +24,7 @@ img {
     max-width: 100%;
 }
 
-header {
+.headBanner {
     display: flex;
     justify-content: center;
     background-color: #ecd3ff;
