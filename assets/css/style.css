@@ -121,7 +121,6 @@ nav a:hover {
 table {
     border: 3px solid black;
     width: 100%;
-    margin-bottom: 1%;
 }
   
 td,
@@ -133,4 +132,11 @@ th {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #e0e0c8;
 }
