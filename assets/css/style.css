@@ -2,7 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: #f5f5dc;
     text-align: center;
 }
 
@@ -24,12 +24,23 @@ img {
     max-width: 100%;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #ecd3ff;
+    width: 100%;
+    height: auto;
+}
+header h1{
+    color: #1a9019;
+}
+
 main {
     margin: 0 20%;
 }
 
 nav {
-    background-color: beige;
+    background-color: #f5f5dc;
     width: 100%;
     padding: 10px;
 }
@@ -52,6 +63,36 @@ nav a {
 
 nav a:hover {
     color: darkred;
+}
+
+.menuNav {
+    background-color: green;
+}
+.menuNav ul a{
+    color: beige;
+}
+.menuNav ul a:hover{
+    color: lime;
+}
+
+.aboutNav {
+    background-color: #593980;
+}
+.aboutNav ul a{
+    color: limegreen;
+}
+.aboutNav ul a:hover {
+    color: red;
+}
+
+.contactNav {
+    background-color: darkred;
+}
+.contactNav ul a{
+    color: white;
+}
+.contactNav ul a:hover{
+    color: darkgreen;
 }
 
 #banner {
